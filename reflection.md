@@ -1,0 +1,5 @@
+I used copilot to give me a start on creating the functions. I asked copilot to generate me a function to complete a certain task. For example, I told copilot to generate me a function that will clear the whitespace from the data set. I also told it to start with the name I was given in the assinment description (def clean_column_names(df):). From there it generated the functions for me.
+
+A big area I changed was the logic behind the column names. Becuase I told copilot to standardize the column names, it automatically assumed that my columns were under the name 'QUANTITY'. This caused an error that was fixed by including 'qty' and 'PRICE'. Another notable change was that the early revisions, copilot did not utilize pandas in the functions and that was something I also had to correct.
+
+I learned that copilot is a good tool to get started but falls apart if you are not a good prompt generator. My prompts were not very specific and this showed in the results. I had to revise a good amount of my code, and it made frequent errors. I've learned that AI is a powerful tool but not a crutch to rely on.

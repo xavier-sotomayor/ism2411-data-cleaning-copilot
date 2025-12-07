@@ -1,0 +1,3 @@
+This script was made to clean the data file 'sales_data_raw.csv'. The functions of this script are that it loads the file specified, makes all of the column names capitalized and standardized, removes all the white space, fills missing values with 'N/A',  and removes rows with invalid values. It then calls all the functions and saves the data into a new file.
+
+The way to run this file is to select data_cleaning.py and run the script. It should generate a cleaned version of sales_data_raw.csv.
